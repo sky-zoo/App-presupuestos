@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<main>
+		<h1 class="titulo" >Calcular Presupuesto</h1>
+		<div class="ingreso-datos">
+			<b class="ingreso-datos__titulo">Ingresar datos</b>
+			<form id="formulario" class="ingreso-datos__datos">
+				<b class="ingreso-datos__datos__b">Titulo Gasto</b><input id="titulo" class="datos" type="text">
+				<b class="ingreso-datos__datos__b">Descripcion Gasto</b><input id="desc" class="datos" type="text">
+				<b class="ingreso-datos__datos__b">Precio: </b><input id="precio" class="datos" type="text">
+				<div class="boton-enviar"><input class="enviar" type="submit" value="Enviar" id="enviarDatos"></div>
+			</form>
+
+		</div>
+
+		<div class="gastos">
+			<h1 class="ingreso-datos__titulo">Presupuesto: </h1>
+			<ul class="gastos__lista-gastos">
+				
+			</ul>
+		</div>
+
+	</main>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
