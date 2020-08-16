@@ -7,7 +7,7 @@
 main{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	/*grid-template-rows: 100vh;*/
+	margin: 0 10px;
 }
 
 .titulo{
@@ -15,13 +15,12 @@ main{
 	padding: 20px;
 	font-size: 45px;
 	grid-column: 1 / 3;
+	/*background-color: ;*/
 }
 
 .ingreso-datos{
-	/*border: 1px red solid;*/
 	display: flex;
 	flex-direction: column;
-
 }
 
 .ingreso-datos__titulo{
@@ -64,5 +63,19 @@ main{
 }
 
 .gastos{
-	border: 1px red solid;
+
+}
+
+#listaGastos{
+	overflow: auto;
+	height: 520px;
+}
+
+.item{
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 2px #ccc solid;
+	border-radius: 2px;
 }
